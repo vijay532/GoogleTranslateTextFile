@@ -11,3 +11,10 @@ result = file_translate.translate(contents, dest='es')
 
 with open('output.txt', 'w') as f:
     f.write(result.text)
+
+
+# import googletrans
+
+# print(googletrans.LANGAUGES) 
+
+# For All the languages that google supports
